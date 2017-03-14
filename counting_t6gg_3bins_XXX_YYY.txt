@@ -1,0 +1,22 @@
+imax 3  number of channels
+jmax 2  number of backgrounds
+kmax *  number of nuisance parameters (sources of systematic uncertainties)
+------------
+bin         1   2   3
+observation 121 37  9
+------------
+bin                 1       1       1       2       2       2       3       3       3
+process             t5gg    qcd     ewk     t5gg    qcd     ewk     t5gg    qcd     ewk
+process             0       1       2       0       1       2       0       1       2
+rate                T5WG1   104.07  16.84   T5WG2   29.58   7.33    T5WG3   7.07    2.31
+------------
+mcStats     lnN     MCS1    -       -       MCS2    -       -       MCS3    -       -
+lumi        lnN     1.046   -       -       1.046   -       -       1.046   -       -
+phoSf       lnN     1.025   -       -       1.025   -       -       1.025   -       -
+jes         lnN     JES1    -       -       JES2    -       -       JES3    -       -
+diEmPtWt    lnN     -       1.15    -       -       1.15    -       -       1.15    -
+nJetsWt     lnN     -       1.15    -       -       1.15    -       -       1.15    -
+qcdFake     lnN     -       1.00    -       -       1.00    -       -       1.00   -
+qcdStats    lnN     -       1.036   -       -       1.068   -       -       1.088   -
+ewkFake     lnN     -       -       1.195   -       -       1.195   -       -       1.195
+ewkStats    lnN     -       -       1.036   -       -       1.054   -       -       1.097
