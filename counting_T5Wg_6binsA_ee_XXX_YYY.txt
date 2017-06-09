@@ -1,0 +1,43 @@
+imax 6  number of channels
+
+jmax 2  number of backgrounds
+
+kmax *  number of nuisance parameters (sources of systematic uncertainties)
+
+------------
+
+bin         1   2   3   4   5   6
+
+observation 4   2   2   1   0   0
+
+------------
+
+bin                 1       1       1       2       2       2       3       3       3       4       4       4       5       5       5       6       6       6
+
+process             t6gg    qcd     ewk     t6gg    qcd     ewk     t6gg    qcd     ewk     t6gg    qcd     ewk     t6gg    qcd     ewk     t6gg    qcd     ewk
+
+process             0       1       2       0       1       2       0       1       2       0       1       2       0       1       2       0       1       2
+
+rate                T6GG1   49.48   4.21    T6GG2   16.47   2.78    T6GG3   13.23   2.37    T6GG4   9.16    2.07    T6GG5   7.39    1.76    T6GG6   4.57    1.04
+
+------------
+
+mcStats     lnN     MCS1    -       -       MCS2    -       -       MCS3    -       -       MCS4    -       -       MCS5    -       -       MCS6    -       -
+
+lumi        lnN     1.023   -       -       1.023   -       -       1.023   -       -       1.023   -       -       1.023   -       -       1.023   -       -
+
+phoSf       lnN     1.025   -       -       1.025   -       -       1.025   -       -       1.025   -       -       1.046   -       -       1.046   -       -
+
+jes         lnN     JES1    -       -       JES2    -       -       JES3    -       -       JES4    -       -       1.046   -       -       1.046   -       -
+
+diEmPtWt    lnN     -       1.150   -       -       1.150   -       -       1.150   -       -       1.150   -       -       1.150   -       -       1.150   -
+
+nJetsWt     lnN     -       1.150   -       -       1.150   -       -       1.150   -       -       1.150   -       -       1.150   -       -       1.150   -
+
+qcdFake     lnN     -       1.376   -       -       1.834   -       -       2.922   -       -       2.516   -       -       1.620   -       -       1.781   -
+
+qcdStats    lnN     -       1.060   -       -       1.113   -       -       1.137   -       -       1.159   -       -       1.165   -       -       1.272   -
+
+ewkFake     lnN     -       -       1.300   -       -       1.300   -       -       1.300   -       -       1.300   -       -       1.300   -       -       1.300
+
+ewkStats    lnN     -       -       1.056   -       -       1.068   -       -       1.074   -       -       1.079   -       -       1.086   -       -       1.112
